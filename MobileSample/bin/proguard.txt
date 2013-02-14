@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:22
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.mobilesample.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.mobilesample.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.mobilesample.RegisterActivity { <init>(...); }
+
+# onClick res/layout/activity_register.xml #generated:22
+-keepclassmembers class * { *** onSave(...); }
+
